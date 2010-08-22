@@ -4,8 +4,7 @@ browsers.  I rewrote github-badges and it works on IE as well as the
 other browsers now.
 
 ### TODO
-* reduce dependencies (jaml probably isn't so necessary, nor
-underscore.js)
+* reduce dependencies (Jaml probably isn't necessary)
 * pull out hard coded values, make easier for endusers to configure
 
 ### Credits

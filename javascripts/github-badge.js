@@ -13,14 +13,15 @@
  *
  * I wrote this because drnic's version caused my internet explorers to crash
  */
+var repoFilter = function(repo) {
+  return !(repo["private"]);
+}
 
 function GithubBadge(json) {
   if (json) {
     var badge = new Object();
     badge['username'] = json.user.login;
-    badge['repos'] = _.select(json.user.repositories, function(r) {
-      return !r.private;
-    }).sort(function() {
+    badge['repos'] = json.user.repositories.filter(repoFilter).sort(function() {
       return (Math.round(Math.random()) - 0.5);
     }).slice(0, 12);
     $('#github-badge').html(Jaml.render('github-badge', badge));
