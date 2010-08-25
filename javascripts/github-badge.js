@@ -6,11 +6,12 @@
  *
  * Eric Himmelreich [ e@binarysoul.com ]
  *
- * Inspiried by Dr Nic's http://github.com/drnic/github-badges
+ * Inspired by Dr Nic's http://github.com/drnic/github-badges
  * and
  * http://blog.darkhax.com/2010/03/04/make-your-own-badge-with-jquery-and-jaml
  *
  * I wrote this because drnic's version caused my internet explorers to crash
+ *
  */
 var repoFilter = function(repo) {
   return !(repo["private"]);
