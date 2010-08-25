@@ -3,7 +3,6 @@
  * version: 0.1
  * @requires jQuery 1.4.2 (written on jquery-1.4.2)
  * @requires Jaml
- * @requires underscore
  *
  * Eric Himmelreich [ e@binarysoul.com ]
  *
