@@ -5,7 +5,6 @@ other browsers now.
 
 ### TODO
 * reduce dependencies (Jaml probably isn't necessary)
-* pull out hard coded values, make easier for endusers to configure
 
 ### Credits
 * [drnic's github-badges](http://github.com/drnic/github-badges)
